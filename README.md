@@ -13,17 +13,6 @@ O objetivo é desenvolver uma página web estruturada semanticamente e estilizad
 * HTML5
 * CSS3
 
-## Estrutura do projeto
-
-```text
-portfolio/
-├── index.html
-├── curriculo.html
-├── projetos.html
-├── contato.html
-├── estilo.css
-└── README.md
-```
 
 ## Páginas
 
