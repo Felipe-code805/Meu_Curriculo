@@ -73,3 +73,80 @@ main{
 .projeto a:hover{
     text-decoration: underline;
 }
+.perfil,
+.habilidades,
+.experiencia,
+.formacao,
+.cursos{
+    margin-bottom: 30px;
+    padding: 25px;
+    background-color: #1e293b;
+    border: 1px solid #334155;
+    border-radius: 10px;
+}
+.perfil h2,
+.habilidades h2,
+.experiencia h2,
+.formacao h2,
+.cursos h2{
+    margin-top: 0;
+    margin-bottom: 20px;
+    color: #38bdf8;
+    font-size: 24px;
+}
+.perfil p,
+.habilidades p,
+.experiencia p,
+.formacao p,
+.cursos p{
+    line-height: 1.7;
+}
+.experiencia li,
+.habilidades li,
+.cursos li {
+    margin-bottom: 10px;
+    line-height: 1.6;
+}
+.apresentacao h2{
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+.apresentacao p{
+    font-size: 18px;
+    line-height: 1.6;
+}
+.contato{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 700px;
+}
+.contato h2{
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+.contato p{
+    font-size: 18px;
+    line-height: 1.6;
+}
+.contato a{
+    display: block;
+    padding: 18px 20px;
+    background-color: #1e293b;
+    border: 1px solid #334155;
+    border-radius: 8px;
+    color: #38bdf8;
+    text-decoration: none;
+    transition: border-color 0.2s, transform 0.2s;
+}
+.contato a:hover{
+    border-color: #38bdf8;
+    transform: translateY(-3px);
+}
+footer{
+    padding: 20px;
+    border-top: 1px solid #334155;
+    color: #94a3b8;
+    text-align: center;
+    font-size: 14px;
+}
