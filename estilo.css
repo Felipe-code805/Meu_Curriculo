@@ -17,12 +17,18 @@ header a{
 }
 main{
     max-width: 1100px;
-    margin: 0;
+    margin: 0 auto;
     padding: 60px 40px;
+}
+.apresentacao h1{
+    font-size: 36px;
+    margin-bottom: 10px;
 }
 .apresentacao h2{
     font-size: 42px;
+    margin-top: 0;
     margin-bottom: 20px;
+    color: #38bdf8;
 }
 .apresentacao p{
     font-size: 18px;
@@ -56,6 +62,7 @@ main{
 }
 .projeto:hover{
     transform: translateY(-5px);
+    border-color: #38bdf8;
 }
 .projeto h2{
     margin-top: 0;
@@ -103,16 +110,8 @@ main{
 }
 .experiencia li,
 .habilidades li,
-.cursos li {
+.cursos li{
     margin-bottom: 10px;
-    line-height: 1.6;
-}
-.apresentacao h2{
-    font-size: 36px;
-    margin-bottom: 10px;
-}
-.apresentacao p{
-    font-size: 18px;
     line-height: 1.6;
 }
 .contato{
@@ -121,7 +120,7 @@ main{
     gap: 20px;
     max-width: 700px;
 }
-.contato h2{
+.contato h1{
     font-size: 36px;
     margin-bottom: 10px;
 }
